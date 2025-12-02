@@ -30,7 +30,7 @@ app.get("/", function(req, res) {
 
 // Renders the "new entry" page (at views/index.js) when GETting the url
 app.get("/new-entry", function(req, res) {
-    res.render("new-entery");
+    res.render("new-entry");
 });
 
 // Defines a route handler when you POST to "new-entry" URL, in contrast to a GET
